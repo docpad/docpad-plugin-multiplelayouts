@@ -1,14 +1,12 @@
-# YourPluginName Plugin for [DocPad](http://docpad.org)
-Uppercase your text document's content by adding either the `uc` or `uppercase` extension to it
+# Additional Layouts Plugin for [DocPad](http://docpad.org)
+Add multiple layouts to your documents by adding 'additionalLayouts' to a document's metadata. 
 
-Convention:  `.txt.(uc|uppercase)`
-
-
+Convention:  `additionalLayouts: ["myLayout", "otherLayout"]  or additionalLayouts: "myLayout"`
 
 ## Install
 
 ```
-npm install --save docpad-plugin-yourpluginname
+npm install --save docpad-plugin-multiplelayouts
 ```
 
 
