@@ -1,38 +1,37 @@
 {
-	"name": "docpad-plugin-yourpluginname",
-	"version": "2.0.0",
-	"description": "DocPad plugin that adds the ability to render Something to Something Else",
-	"homepage": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"something",
-		"somethingelse"
-	],
-	"author": "Copyright holders name <copyright holder's email> (copyright holder's website url)",
-	"maintainers": [
-		"Your name <your email> (your github url)"
-	],
-	"contributors": [
-		"Your name <your email> (your github url)"
-	],
-	"bugs": {
-		"url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname.git"
-	},
-	"engines" : {
-		"node": ">=0.8",
-		"docpad": ">=6"
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"coffee-script": "~1.6.2"
-	},
-	"main": "./out/yourpluginname.plugin.js",
-	"scripts": {
-		"test": "node ./out/yourpluginname.test.js"
-	}
+  "name": "docpad-plugin-additionalLayouts",
+  "version": "2.0.0",
+  "description": "Docpad plugin that enables multiple layouts per document",
+  "homepage": "https://github.com/neilbaylorrulez/docpad-plugin-additionalLayouts",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "layouts",
+    "multiple-layouts"
+  ],
+  "author": "Neil Taylor <neil.t@myplanetdigital.com> http://www.myplanetdigital.com",
+  "maintainers": [],
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/neilbaylorrulez/docpad-plugin-additionalLayouts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neilbaylorrulez/docpad-plugin-additionalLayouts/issues"
+  },
+  "engines": {
+    "node": ">=0.8",
+    "docpad": ">=6"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "taskgroup": "~3.1.2",
+    "joe": "~1.2.0",
+    "joe-reporter-console": "~1.2.1"
+  },
+  "main": "./out/additionallayouts.plugin.js",
+  "scripts": {
+    "test": "node ./out/additionallayouts.test.js"
+  }
 }
