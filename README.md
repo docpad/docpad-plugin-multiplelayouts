@@ -1,7 +1,9 @@
 # Additional Layouts Plugin for [DocPad](http://docpad.org)
 Add multiple layouts to your documents by adding 'additionalLayouts' to a document's metadata. 
 
-Convention:  `additionalLayouts: ["myLayout", "otherLayout"]  or additionalLayouts: "myLayout"`
+Convention:  `additionalLayouts: ["myLayout", "otherLayout"]  
+OR
+' additionalLayouts: "myLayout"`
 
 ## Install
 
