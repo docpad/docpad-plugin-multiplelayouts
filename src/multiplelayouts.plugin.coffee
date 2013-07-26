@@ -4,9 +4,9 @@ module.exports = (BasePlugin) ->
 	{TaskGroup} = require('taskgroup')
 
 	# Define Plugin
-	class AdditionalLayouts extends BasePlugin
+	class MultipleLayoutsPlugin extends BasePlugin
 		# Plugin name
-		name: 'additionallayouts'
+		name: 'multiplelayouts'
 
 		extendCollections: (opts) ->
 			# Prepare
