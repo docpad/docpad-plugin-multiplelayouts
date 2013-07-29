@@ -34,7 +34,8 @@ module.exports = (BasePlugin) ->
 		contextualizeBefore: (opts, next) ->
 			# Prepare
 			me = @
-			database = @docpad.getDatabase()
+			docpad = @docpad
+			database = docpad.getDatabase()
 			tasks = new TaskGroup().once('complete', next)
 			collection = opts.collection
 
@@ -51,8 +52,8 @@ module.exports = (BasePlugin) ->
 				return  unless layouts?
 
 				layouts = [layouts]  unless Array.isArray(layouts)
-				layouts.forEach (layout)  ->  addTask (complete) ->
-					newDoc = document.clone()
+				layouts.forEach (layout) ->  addTask (complete) ->
+					newDoc = docpad.cloneModel(document)
 					newDoc.set(
 						filename: null
 					)
@@ -78,10 +79,11 @@ module.exports = (BasePlugin) ->
 
 		removeAdditionalLayoutsFor: (document, collection, next) ->
 			# Prepare
-			database = @docpad.getDatabase()
+			docpad = @docpad
+			database = docpad.getDatabase()
 
 			# Completion callback
-			tasks = new TaskGroup()
+			tasks = new TaskGroup().setConfig(concurreny: 0)
 			tasks.once('complete', next)  if next
 
 			files = docpad.getFiles(

@@ -7,7 +7,7 @@
 
 ## Bug reports
 
-[Post your bug report on the GitHub Issue Tracker for this project](https://github.com/docpad/docpad-plugin-yourpluginname/issues)
+[Post your bug report on the GitHub Issue Tracker for this project](https://github.com/docpad/docpad-plugin-multiplelayouts/issues)
 
 
 ## Development
