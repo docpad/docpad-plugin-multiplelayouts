@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-multiplelayouts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Docpad plugin that enables multiple layouts per document",
   "homepage": "http://docpad.org/plugin/multiplelayouts",
   "keywords": [
@@ -9,7 +9,7 @@
     "layouts",
     "multiple-layouts"
   ],
-  "author": "Neil Taylor <neil.t@myplanetdigital.com> (http://www.myplanetdigital.com)",
+  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
   "maintainers": [
     "Neil Taylor <neil.t@myplanetdigital.com> (https://github.com/neilbaylorrulez)",
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
@@ -31,13 +31,12 @@
   "peerDependencies": {
     "docpad": ">=6 <7"
   },
-  "dependencies": {},
+  "dependencies": {
+    "taskgroup": "~3.1.2"
+  },
   "devDependencies": {
     "docpad": ">=6 <7",
-    "coffee-script": "~1.6.2",
-    "taskgroup": "~3.1.2",
-    "joe": "~1.2.0",
-    "joe-reporter-console": "~1.2.1"
+    "coffee-script": "~1.6.2"
   },
   "main": "./out/multiplelayouts.plugin.js",
   "scripts": {

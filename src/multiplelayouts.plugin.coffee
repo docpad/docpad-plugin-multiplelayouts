@@ -23,14 +23,6 @@ module.exports = (BasePlugin) ->
 			# Chain
 			@
 
-		extendTemplateData: (opts) ->
-			opts.templateData.escapeForJSON = (str) ->
-				return ''  unless str
-				JSON.stringify(str)
-
-			#Chain
-			@
-
 		contextualizeBefore: (opts, next) ->
 			# Prepare
 			me = @
