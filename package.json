@@ -35,7 +35,6 @@
     "taskgroup": "~3.1.2"
   },
   "devDependencies": {
-    "docpad": ">=6 <7",
     "coffee-script": "~1.6.2"
   },
   "main": "./out/multiplelayouts.plugin.js",
