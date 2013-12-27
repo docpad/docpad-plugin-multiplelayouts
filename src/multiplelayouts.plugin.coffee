@@ -51,7 +51,7 @@ module.exports = (BasePlugin) ->
 					)
 					newDoc.setMeta(
 						fullPath: null  # treat it as a virtual document
-						relativePath: document.get('relativeOutDirPath') + '/' + document.get('basename') + '-' + layout + '.' + document.get('extensions').join('.')
+						relativePath: (document.get('additionalLayoutsRelativeOutDirPath') or document.get('relativeOutDirPath')) + '/' + document.get('basename') + '-' + layout + '.' + document.get('extensions').join('.')
 						layout: layout
 						additionalLayoutFor: document.id
 						additionalLayouts: null
