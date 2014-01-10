@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-multiplelayouts",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Docpad plugin that enables multiple layouts per document",
   "homepage": "http://docpad.org/plugin/multiplelayouts",
   "keywords": [
@@ -9,14 +9,14 @@
     "layouts",
     "multiple-layouts"
   ],
-  "author": "Myplanet Internet Solutions Ltd. <hello@myplanetdigital.com> (http://www.myplanetdigital.com/)",
+  "author": "2013+ Myplanet Internet Solutions Ltd. <hello@myplanetdigital.com> (http://www.myplanetdigital.com/)",
   "maintainers": [
     "Neil Taylor <neil.t@myplanetdigital.com> (https://github.com/neilbaylorrulez)",
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "contributors": [
-    "Neil Taylor <neil.t@myplanetdigital.com> (https://github.com/neilbaylorrulez)",
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "Neil Taylor <neil.t@myplanetdigital.com> (https://github.com/neilbaylorrulez)"
   ],
   "bugs": {
     "url": "https://github.com/docpad/docpad-plugin-multiplelayouts/issues"
@@ -32,13 +32,28 @@
     "docpad": ">=6 <7"
   },
   "dependencies": {
-    "taskgroup": "~3.1.2"
+    "taskgroup": "~3.3.6"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.2"
+    "coffee-script": "~1.6.2",
+    "docpad": ">=6 <7",
+    "projectz": "~0.3.9"
   },
   "main": "./out/multiplelayouts.plugin.js",
   "scripts": {
     "test": "node ./out/multiplelayouts.test.js"
+  },
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "david": true,
+    "daviddev": true,
+    "gittip": "docpad",
+    "flattr": "344188/balupton-on-Flattr",
+    "paypal": "QB8GQPZAH84N6",
+    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a"
+  },
+  "license": {
+    "type": "MIT"
   }
 }
