@@ -3,6 +3,7 @@
 <body>
 	<article>
 		<%- @content %>
+    <pre><%- @document.urls %></pre>
 	</article>
 </body>
 </html>
