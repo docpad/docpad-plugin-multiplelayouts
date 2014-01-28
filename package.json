@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-multiplelayouts",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Docpad plugin that enables multiple layouts per document",
   "homepage": "http://docpad.org/plugin/multiplelayouts",
   "keywords": [
@@ -16,7 +16,8 @@
   ],
   "contributors": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-    "Neil Taylor <neil.t@myplanetdigital.com> (https://github.com/neilbaylorrulez)"
+    "Neil Taylor <neil.t@myplanetdigital.com> (https://github.com/neilbaylorrulez)",
+    "Eric Vantillard <eric.vantillard@evaxion.fr> (https://github.com/evantill)"
   ],
   "bugs": {
     "url": "https://github.com/docpad/docpad-plugin-multiplelayouts/issues"
