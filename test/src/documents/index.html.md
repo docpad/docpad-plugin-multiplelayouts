@@ -1,6 +1,6 @@
 ---
 layout: 'default'
-additionalLayouts: ['other', 'data']
+additionalLayouts: ['subfolder/other', 'data']
 title: 'What now?'
 ---
 This is the content!!
