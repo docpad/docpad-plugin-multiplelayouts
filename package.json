@@ -16,7 +16,8 @@
   ],
   "contributors": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-    "Neil Taylor <neil.t@myplanetdigital.com> (https://github.com/neilbaylorrulez)"
+    "Neil Taylor <neil.t@myplanetdigital.com> (https://github.com/neilbaylorrulez)",
+    "Eric Vantillard <eric.vantillard@evaxion.fr> (https://github.com/evantill)"
   ],
   "bugs": {
     "url": "https://github.com/docpad/docpad-plugin-multiplelayouts/issues"
