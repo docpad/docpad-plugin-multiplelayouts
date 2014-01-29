@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-multiplelayouts",
-  "version": "2.0.3",
+  "version": "2.0.2",
   "description": "Docpad plugin that enables multiple layouts per document",
   "homepage": "http://docpad.org/plugin/multiplelayouts",
   "keywords": [
