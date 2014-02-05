@@ -46,6 +46,7 @@ module.exports = (BasePlugin) ->
 				layouts = [layouts]  unless Array.isArray(layouts)
 				layouts.forEach (layout) ->  addTask (complete) ->
 					newDoc = docpad.cloneModel(document)
+					newDoc.removeUrl(newDoc.get('url'))
 					newDoc.set(
 						filename: null
 					)
@@ -57,7 +58,7 @@ module.exports = (BasePlugin) ->
 						additionalLayouts: null
 					)
 					newDoc.normalize (err) ->
-						return complete(err)  if err
+						return complete(err) if err
 
 						database.add(newDoc)
 						opts.collection?.add(newDoc)
