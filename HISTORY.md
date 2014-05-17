@@ -1,6 +1,10 @@
 # History
 
-- v2.0.3 February 4th, 2014
+- v2.0.4 May 17, 2014
+	- Updated for DocPad v6.65
+	- Updated dependencies
+
+- v2.0.3 February 4, 2014
 	- Fixed url resolution
 		- Thanks to [Eric Vantillard](https://github.com/evantill) for [pull request #4](http://github.com/docpad/docpad-plugin-multiplelayouts/pull/4)
 	- Updated dependencies

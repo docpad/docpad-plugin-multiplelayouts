@@ -45,7 +45,7 @@ module.exports = (BasePlugin) ->
 
 				layouts = [layouts]  unless Array.isArray(layouts)
 				layouts.forEach (layout) ->  addTask (complete) ->
-					newDoc = docpad.cloneModel(document)
+					newDoc = docpad.cloneModel?(document) ? document.clone()
 					newDoc.removeUrl(newDoc.get('url'))
 					newDoc.set(
 						filename: null
