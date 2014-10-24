@@ -52,6 +52,7 @@ module.exports = (BasePlugin) ->
 					)
 					newDoc.setMeta(
 						fullPath: null  # treat it as a virtual document
+						url: null,
 						relativePath: document.get('relativeOutDirPath') + '/' + document.get('basename') + '-' + layout + '.' + document.get('extensions').join('.')
 						layout: layout
 						additionalLayoutFor: document.id
