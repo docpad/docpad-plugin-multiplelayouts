@@ -12,7 +12,11 @@ bower_components/
 node_modules/
 out/
 
+# Private Files
+.env
+
+
 # =====================================
 # CUSTOM MODIFICATIONS
 
-# None
+.idea/
