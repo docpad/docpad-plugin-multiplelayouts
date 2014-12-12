@@ -90,6 +90,7 @@ These amazing people have contributed code to this project:
 - [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/docpad/docpad-plugin-multiplelayouts/commits?author=balupton)
 - [Eric Vantillard](https://github.com/evantill) <eric.vantillard@evaxion.fr> — [view contributions](https://github.com/docpad/docpad-plugin-multiplelayouts/commits?author=evantill)
 - [Neil Taylor](https://github.com/neilbaylorrulez) <neil.t@myplanetdigital.com> — [view contributions](https://github.com/docpad/docpad-plugin-multiplelayouts/commits?author=neilbaylorrulez)
+- [nfriedly](https://github.com/nfriedly) — [view contributions](https://github.com/docpad/docpad-plugin-multiplelayouts/commits?author=nfriedly)
 - [RobLoach](https://github.com/RobLoach) — [view contributions](https://github.com/docpad/docpad-plugin-multiplelayouts/commits?author=RobLoach)
 
 [Become a contributor!](https://github.com/docpad/docpad-plugin-multiplelayouts/blob/master/CONTRIBUTING.md#files)
