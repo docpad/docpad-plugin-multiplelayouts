@@ -14,9 +14,10 @@ out/
 
 # Private Files
 .env
+.idea
 
 
 # =====================================
 # CUSTOM MODIFICATIONS
 
-.idea/
+# None
