@@ -1,7 +1,7 @@
 {
   "title": "Multiple Layouts Plugin for DocPad",
   "name": "docpad-plugin-multiplelayouts",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "Docpad plugin that enables multiple layouts per document",
   "homepage": "https://github.com/docpad/docpad-plugin-multiplelayouts",
   "license": "MIT",
@@ -61,7 +61,7 @@
     "url": "https://github.com/docpad/docpad-plugin-multiplelayouts.git"
   },
   "engines": {
-    "node": ">=0.8"
+    "node": ">=0.12"
   },
   "editions": [
     {

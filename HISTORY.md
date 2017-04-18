@@ -1,5 +1,9 @@
 # History
 
+## v2.1.0 2017 April 18
+- Updated base files
+- Bumped minimum node version to >=0.12 due to [failed builds on earlier](https://travis-ci.org/docpad/docpad-plugin-multiplelayouts/builds/223019317)
+
 ## v2.0.4 2014 May 17
 - Updated for DocPad v6.65
 - Updated dependencies
