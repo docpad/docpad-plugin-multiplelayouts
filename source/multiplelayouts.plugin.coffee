@@ -28,7 +28,7 @@ module.exports = (BasePlugin) ->
 			me = @
 			docpad = @docpad
 			database = docpad.getDatabase()
-			tasks = new TaskGroup().once('complete', next)
+			tasks = TaskGroup.create().done(next)
 			collection = opts.collection
 
 			sourcePageDocuments = collection.findAll(
@@ -77,8 +77,8 @@ module.exports = (BasePlugin) ->
 			database = docpad.getDatabase()
 
 			# Completion callback
-			tasks = new TaskGroup().setConfig(concurreny: 0)
-			tasks.once('complete', next)  if next
+			tasks = TaskGroup.create(concurreny: 0)
+			tasks.done(next)  if next
 
 			files = docpad.getFiles(
 				additionalLayoutFor: document.id
