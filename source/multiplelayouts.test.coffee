@@ -1,5 +1,5 @@
-require('docpad').require('testers').test({
-	pluginPath: __dirname+'/..'
-	testerClass: 'RendererTester',
+'use strict'
+
+module.exports = require('docpad-plugintester').test({
 	removeWhitespace: true
 })
