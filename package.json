@@ -104,7 +104,7 @@
   "main": "edition-esnext/index.js",
   "dependencies": {
     "docpad-baseplugin": "^1.4.0",
-    "taskgroup": "^7.17.0"
+    "taskgroup": "^9.3.0"
   },
   "devDependencies": {
     "@bevry/update-contributors": "^1.18.0",
